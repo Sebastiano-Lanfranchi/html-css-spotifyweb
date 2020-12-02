@@ -9,13 +9,13 @@
 
 .wrapper{
   display: flex;
+  width: 100vw;
+  height: 100vh;
 }
 
 .container-destra{
   width: 85%;
 }
-
-
 
 
 
@@ -44,14 +44,25 @@
 
 .container-sidebar ul li a{
   text-decoration: none;
-  color: white;
+  color: #626262;
   vertical-align: middle;
 }
 
 .container-sidebar ul li{
   padding-left: 20px;
-  padding-bottom: 20px;
-  color: white;
+  margin-bottom: 20px;
+  color: #626262;
+  vertical-align: middle;
+  list-style-type: none;
+}
+
+.fx-hover:hover{
+  border-left: 3px solid #adff2f;
+  color: #ffffff;
+}
+
+.fx-hover a:hover{
+  color: #ffffff;
 }
 
 .icon-sidebar{
@@ -65,13 +76,28 @@
 /* CONTAINER NAVBAR RULE */
 .container-navbar{
   height: 100px;
+  width: 85%;
   background-color: #080b12;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+
+}
+
+.button-premium{
+  border: 2px solid white;
+  color: white;
+  border-radius: 20px;
+  float: right;
+  height: 50px;
+  line-height: 25px;
+  width: 300px;
+  text-align: center;
+  padding: 10px 30px;
 }
 
 .container-album{
   height: 400px;
   background-color: #141922;
-
-
-
 }
