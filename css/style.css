@@ -1,0 +1,77 @@
+/* UTILITY CLASS */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto' , sans-serif;
+}
+
+.wrapper{
+  display: flex;
+}
+
+.container-destra{
+  width: 85%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SIDEBAR RULE */
+.container-sidebar{
+  background-color: black;
+  flex-direction: column;
+  width: 15%;
+}
+
+.logo-sidebar{
+  width: 80%;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.container-sidebar ul li a{
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+}
+
+.container-sidebar ul li{
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.icon-sidebar{
+  width: 10%;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+
+
+/* CONTAINER NAVBAR RULE */
+.container-navbar{
+  height: 100px;
+  background-color: #080b12;
+}
+
+.container-album{
+  height: 400px;
+  background-color: #141922;
+
+
+
+}
