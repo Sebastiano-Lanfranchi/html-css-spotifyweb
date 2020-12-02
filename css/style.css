@@ -58,12 +58,12 @@
   list-style-type: none;
 }
 
-.fx-hover:hover{
+.fx-hover-left:hover{
   border-left: 3px solid #adff2f;
   color: #ffffff;
 }
 
-.fx-hover a:hover{
+.fx-hover-left a:hover{
   color: #ffffff;
 }
 
@@ -100,9 +100,40 @@
 
 .container-album{
   height: 100%;
+  padding-top: 100px;
   background-color: #141922;
+  overflow-y: auto;
 }
 
+.navbar-album ul{
+  text-align: center;
+}
+
+.navbar-album li{
+  display: inline-block;
+  margin: 20px;
+}
+
+.navbar-album li a{
+    text-decoration: none;
+    color: #626262;
+  }
+
+.navbar-album li a:hover{
+  color: #fff;
+}
+
+.navbar-album li hr{
+  height: 2px;
+  width: 30px;
+  margin: 0 auto;
+  display: none;
+}
+
+.navbar-album li:hover > hr{
+  color: #adff2f;
+  display: block;
+}
 /* PLAYBAR */
 .container-playbar{
   height: 100px;
