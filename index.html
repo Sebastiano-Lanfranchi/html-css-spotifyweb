@@ -1,57 +1,118 @@
 <!DOCTYPE html>
- <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Spotify</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/35b3b34844.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="container-sidebar">
-        <ul>
-          <li><img src="img/logo.svg" class="logo-sidebar" alt=""></li>
-          <li class="text-center fx-hover-left"><img src="img/home.svg" class="icon-sidebar" alt=""><a href="#">Home</a></li>
-          <li class="text-center fx-hover-left"><img src="img/search.svg" class="icon-sidebar" alt=""><a href="#">Cerca</a></li>
-          <li class="text-center fx-hover-left"><img src="img/libreria.svg" class="icon-sidebar" alt=""><a href="#">La tua libreria</a></li>
-          <li>PLAYLIST</li>
-          <li><i class="fas fa-plus-square"></i><a href="#">Crea Playlist</a></li>
-          <li class="fx-hover-left"><a href="#">Nome Playlist</a></li>
-          <li class="fx-hover-left"><a href="#">Nome Playlist</a></li>
-          <li class="fx-hover-left"><a href="#">Nome Playlist</a></li>
-          <li class="fx-hover-left"><a href="#">Nome Playlist</a></li>
-          <li class="fx-hover-left"><a href="#">Nome Playlist</a></li>
-          <li class="fx-hover-left"><a href="#">Nome Playlist</a></li>
-          <li class="fx-hover-left"><a href="#">Nome Playlist</a></li>
-        </ul>
-      </div>
-      <div class="container-destra">
-        <div class="container-navbar">
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Spotify</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/35b3b34844.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- SIDEBAR -->
+    <div class="container-sidebar">
+      <ul>
+        <li><img src="img/logo.svg" class="logo-sidebar" alt=""></li>
+        <li class="text-center fx-hover-left"><img src="img/home.svg" class="icon-sidebar" alt=""><a href="#">Home</a></li>
+        <li class="text-center fx-hover-left"><img src="img/search.svg" class="icon-sidebar" alt=""><a href="#">Cerca</a></li>
+        <li class="text-center fx-hover-left"><img src="img/libreria.svg" class="icon-sidebar" alt=""><a href="#">La tua libreria</a></li>
+        <li>PLAYLIST</li>
+        <li><i class="fas fa-plus-square"></i><a href="#">Crea Playlist</a></li>
+        <li class="fx-hover-left"><a href="#">Nome Playlist</a></li>
+        <li class="fx-hover-left"><a href="#">Nome Playlist</a></li>
+        <li class="fx-hover-left"><a href="#">Nome Playlist</a></li>
+        <li class="fx-hover-left"><a href="#">Nome Playlist</a></li>
+        <li class="fx-hover-left"><a href="#">Nome Playlist</a></li>
+        <li class="fx-hover-left"><a href="#">Nome Playlist</a></li>
+        <li class="fx-hover-left"><a href="#">Nome Playlist</a></li>
+      </ul>
+    </div>
+    <!-- /SIDEBAR -->
+    <!-- NAVBAR1-->
+    <div class="container-destra">
+      <div class="container-navbar">
+        <a href="#">
           <div class="button-premium">
-            EFFETTUA L'UPGRADE
+          EFFETTUA L'UPGRADE
+        </div>
+        </a>
+      </div>
+      <!-- NAVBAR1-->
+      <!-- NAVBAR2-->
+      <div class="container-album">
+        <div class="navbar-album">
+          <ul>
+            <li><a href="#">IN EVIDENZA</a><hr></li>
+            <li><a href="#">PODCAST</a><hr></li>
+            <li><a href="#">CLASSIFICHE</a><hr></li>
+            <li><a href="#">GENERI E MOOD</a><hr></li>
+            <li><a href="#">NUOVE USCITE</a><hr></li>
+            <li><a href="#">SCOPRI</a><hr></li>
+          </ul>
+        </div>
+        <!-- /NAVBAR2-->
+        <!-- PRIMA ROW -->
+        <h1>Recently played</h1>
+        <div class="row-1">
+          <div class="box">
+            <div class="box1">
+              <img src="img/metal-lifting.jpg" class="image-resize" alt="">
+              <i class="far fa-play-circle fa-5x"></i>
+            </div>
+            <h3>Heavy Metal</h3>
+            <span class="font-color">Subtitle</span>
           </div>
+          <div class="box">
+            <div class="box2">
+              <img src="img/stranger.jpeg" class="image-resize" alt="">
+              <i class="far fa-play-circle fa-5x"></i>
+            </div>
+            <h3>tranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+            <span class="font-color">Kyle Dixon & Micheal Stain</span>
           </div>
-        <div class="container-album">
-          <div class="navbar-album">
-            <ul>
-              <li><a href="#">IN EVIDENZA</a><hr></li>
-              <li><a href="#">PODCAST</a><hr></li>
-              <li><a href="#">CLASSIFICHE</a><hr></li>
-              <li><a href="#">GENERI E MOOD</a><hr></li>
-              <li><a href="#">NUOVE USCITE</a><hr></li>
-              <li><a href="#">SCOPRI</a><hr></li>
-            </ul>
+          <div class="box">
+            <div class="box3">
+              <img src="img/aquietplace.jpeg" class="image-resize" alt="">
+              <i class="far fa-play-circle fa-5x"></i>
+            </div>
+            <h3>A quiet place</h3>
+            <span class="font-color">Subtitle</span>
+          </div>
+          <div class="box">
+            <div class="box4">
+              <img src="img/split.jpeg" class="image-resize" alt="">
+              <i class="far fa-play-circle fa-5x"></i>
+            </div>
+            <h3>Split</h3>
+            <span class="font-color">Subtitle</span>
+          </div>
+          <div class="box">
+            <div class="box5">
+              <img src="img/cure.jpeg" class="image-resize" alt="">
+              <i class="far fa-play-circle fa-5x"></i>
+            </div>
+            <h3>A cure for wellness</h3>
+            <span class="font-color">Subtitle</span>
+          </div>
+          <div class="box">
+            <div class="box6">
+              <img src="img/sinister.jpeg" class="image-resize" alt="">
+              <i class="far fa-play-circle fa-5x"></i>
+            </div>
+            <h3>Sinister</h3>
+            <span class="font-color">Subtitle</span>
           </div>
         </div>
-        </div>
-
-      <div class="container-playbar">
-
+        <!-- /PRIMA ROW -->
       </div>
     </div>
 
-  </body>
+    <div class="container-playbar">
+
+    </div>
+  </div>
+
+</body>
 </html>
