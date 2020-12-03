@@ -25,6 +25,10 @@ h2, h3{
   color: #626262;
 }
 
+.white{
+  color: #fff;
+}
+
 .fa-play-circle{
   color: white;
   width: 100px;
@@ -41,6 +45,8 @@ h2, h3{
   width: 288px;
   height: 90%;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo-sidebar{
@@ -78,6 +84,7 @@ h2, h3{
   vertical-align: middle;
   margin-right: 5px;
 }
+
 
 /* CONTAINER NAVBAR RULE */
 .container-navbar{
@@ -224,6 +231,17 @@ h2, h3{
   bottom: 0;
   left: 0;
   background-color: #282828;
+  display: flex;
+  padding: 20px 10px;
+}
+
+.icon-playbar{
+  width: 50px;
+}
+
+.playbar-box-1{
+  display: flex;
+  line-height: 50px;
 }
 
 /* MEDIA QUERIES */
