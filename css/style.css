@@ -241,7 +241,17 @@ h2, h3{
 
 .playbar-box-1{
   display: flex;
-  line-height: 50px;
 }
 
+.testo-playbar{
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.icon-playbab-box1{
+  margin-top: 20px;
+  margin-left: 15px;
+  padding-left: 5px;
+}
 /* MEDIA QUERIES */
