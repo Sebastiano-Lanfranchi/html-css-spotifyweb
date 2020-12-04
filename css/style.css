@@ -29,7 +29,7 @@ h2, h3{
   color: #fff;
 }
 
-.fa-play-circle{
+.fa-circle-album{
   color: white;
   width: 100px;
   position: absolute;
@@ -185,16 +185,16 @@ h2, h3{
   filter: brightness(50%);
 }
 
-.box2-1:hover > .fa-play-circle,
-.box2-2:hover > .fa-play-circle,
-.box3-1:hover > .fa-play-circle,
-.box3-2:hover > .fa-play-circle,
-.box1:hover > .fa-play-circle,
-.box2:hover > .fa-play-circle,
-.box3:hover > .fa-play-circle,
-.box4:hover > .fa-play-circle,
-.box5:hover > .fa-play-circle,
-.box6:hover > .fa-play-circle {
+.box2-1:hover > .fa-circle-album,
+.box2-2:hover > .fa-circle-album,
+.box3-1:hover > .fa-circle-album,
+.box3-2:hover > .fa-circle-album,
+.box1:hover > .fa-circle-album,
+.box2:hover > .fa-circle-album,
+.box3:hover > .fa-circle-album,
+.box4:hover > .fa-circle-album,
+.box5:hover > .fa-circle-album,
+.box6:hover > .fa-circle-album {
  display: inline;
 }
 
@@ -233,9 +233,11 @@ h2, h3{
   background-color: #282828;
   display: flex;
   padding: 20px 10px;
+  justify-content: space-between;
+  color: white;
 }
 
-.icon-playbar{
+.image-playbar{
   width: 50px;
 }
 
@@ -249,9 +251,17 @@ h2, h3{
   margin-left: 20px;
 }
 
-.icon-playbab-box1{
+.icon-playbar-box1{
   margin-top: 20px;
   margin-left: 15px;
+  padding-left: 5px;
+}
+
+.playbar-box-2-top{
+  padding-left: 5px;
+}
+
+.icon-playbar{
   padding-left: 5px;
 }
 /* MEDIA QUERIES */
